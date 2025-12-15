@@ -149,6 +149,8 @@ public class TcpClientBasic implements ICommunicable {
      */
     public void connect() {
         this.close();
+        // socket设置为null，添加这一行可以跳过是否重连的校验，保证肯定连接
+        this.socket = null;
         this.getAvailableSocket();
     }
 

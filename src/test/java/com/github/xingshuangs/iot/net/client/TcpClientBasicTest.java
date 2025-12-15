@@ -59,6 +59,34 @@ public class TcpClientBasicTest {
 
     @Test
     public void write1() {
+        this.tcpClientBasic.setEnableReconnect(false);
+        String test = "hello world ";
+        IntStream.range(0, 100).forEach(i -> {
+            String data = test + i;
+            try {
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println(data);
+                this.tcpClientBasic.write(data.getBytes(StandardCharsets.UTF_8));
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        });
+    }
+
+    @Test
+    public void write2() {
+        String test = "hello world ";
+        this.tcpClientBasic.setEnableReconnect(false);
+        IntStream.range(0, 100).forEach(i -> {
+            String data = test + i;
+            try {
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println(data);
+                this.tcpClientBasic.connect();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        });
     }
 
     @Test
