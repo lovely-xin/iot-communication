@@ -73,7 +73,7 @@ public enum EMcDeviceCode {
      * Latch relay
      * 锁存继电器
      */
-    L("L", GeneralConst.TYPE_BIT, 10, "L*", (byte) 0x92, "L***", 0x0092, 0x4D20),
+    L("L", GeneralConst.TYPE_BIT, 10, "L*", (byte) 0x92, "L***", 0x0092),
 
     /**
      * Annunciator
