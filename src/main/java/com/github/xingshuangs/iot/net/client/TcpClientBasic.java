@@ -116,6 +116,10 @@ public class TcpClientBasic implements ICommunicable {
         this.receiveTimeout = receiveTimeout;
     }
 
+    public AtomicBoolean getSocketError() {
+        return socketError;
+    }
+
     // endregion
 
     // region 构造方法

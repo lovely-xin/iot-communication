@@ -25,12 +25,11 @@
 package com.github.xingshuangs.iot.net;
 
 
-import com.github.xingshuangs.iot.exceptions.SocketRuntimeException;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.net.SocketException;
 
 /**
  * Socket communication util.
@@ -164,7 +163,7 @@ public class SocketUtils {
             int num = in.read(data, off, len);
             if (num < 0) {
                 // 读取数据异常，未读取到数据，连接断开
-                throw new SocketRuntimeException("The end of the stream has been reached, and disconnected");
+                throw new SocketException("The end of the stream has been reached, and disconnected");
             }
             count += num;
             off += num;
