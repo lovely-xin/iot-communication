@@ -17,7 +17,8 @@ Now, it is a tool for iot communication, used for the learning and development o
 - Siemens S7 protocol, support PLC S1500, S1200, S400, S300, S200Smart, Siemens SINUMERIK
   828D. [S7Client DEMO](https://github.com/xingshuangs/SiemensWindowProgram).
 - Modbus protocol, support ModbusTcp, ModbusRtuOverTcp, ModbusAsciiOverTcp, ModbusTcpServer.
-- Mitsubishi Melsec(MC) Protocol, support PLC iQ-R series, Q/L series, QnA series, A series, Only the L Series and FX5U has been
+- Mitsubishi Melsec(MC) Protocol, support PLC iQ-R series, Q/L series, QnA series, A series, Only the L Series and FX5U
+  has been
   tested so far.
 - RTSP, RTCP, RTP, H264, MP4 (FMP4) protocol, RTSP + H264 + FMP4 + WebSocket + MSE +
   WEB. [WEB Monitor DEMO](https://github.com/xingshuangs/rtsp-websocket-server).
@@ -51,7 +52,7 @@ If you have any questions, please contact the author in the following ways, and 
 spare time. <br>
 [UPDATE LOG](./tips/changeLog.md)
 
-- QQ Group: **759101350**
+- QQ Group: **1081333726**, **~~759101350~~(full)**
 - QQ Private: **837820457**
 - Email：**xingshuang_cool@163.com**
 
@@ -78,7 +79,10 @@ The dependencies used in this project are as follows:
 Buy me a cup of coffee, please note your name. <br>
 
 #### 1. [PayPal](https://www.paypal.com/paypalme/xingshuang)
+
 [![PayPal Sponsor button](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/xingshuang)
 <br>
+
 #### 2. WeChat
+
 ![wechat](https://s3.bmp.ovh/imgs/2025/02/24/3707a0c54727605a.jpg)

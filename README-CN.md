@@ -17,7 +17,7 @@
 - 西门子S7通信协议，支持西门子S1500，S1200，S400，S300，S200Smart，西门子数控机床828D，
   [S7Client DEMO](https://github.com/xingshuangs/SiemensWindowProgram)
 - Modbus通信协议，支持ModbusTcp, ModbusRtuOverTcp, ModbusAsciiOverTcp, ModbusTcpServer
-- 三菱Melsec（MC）通信协议，支持PLC iQ-R系列, Q/L系列, QnA系列, A系列,  目前只测试了L系列和FX5U
+- 三菱Melsec（MC）通信协议，支持PLC iQ-R系列, Q/L系列, QnA系列, A系列, 目前只测试了L系列和FX5U
 - RTSP, RTCP, RTP, H264, MP4 (FMP4)协议，RTSP + H264 + FMP4 + WebSocket + MSE +
   WEB，[WEB Monitor DEMO](https://github.com/xingshuangs/rtsp-websocket-server)
 - 基础字节数组解析转换工具
@@ -49,7 +49,7 @@
 如果有任何问题，可以通过以下方式联系作者，作者在空余时间会做解答。<br>
 [更新日志](./tips/changeLog.md)
 
-- QQ群：**759101350**
+- QQ群：**1081333726**, **~~759101350~~(已满)**
 - QQ私人：**837820457**
 - 邮件：**xingshuang_cool@163.com**
 
@@ -64,18 +64,22 @@
 
 本项目所使用的依赖如下：
 
-| 序号  | 使用范围     | 依赖                                               | 版本      |   协议    |    时间     | 版权             |
-|:---:|----------|:-------------------------------------------------|---------|:-------:|:---------:|:---------------|
-|  1  | provided | [lombok](https://projectlombok.org/)             | 1.18.26 |   MIT   | 2009-2021 | Lombok Authors |
-|  2  | test     | [junit](https://junit.org/junit4/)               | 4.13.2  | EPL-1.0 | 2002-2021 | junit          |
-|  3  | test     | [slf4j-simple](https://www.slf4j.org/index.html) | 2.0.6   |   MIT   | 2004-2023 | QOS.ch         |
-|  4  | compile  | [slf4j-api](https://www.slf4j.org/index.html)    | 2.0.6   |   MIT   | 2004-2023 | QOS.ch         |
+| 序号 | 使用范围     | 依赖                                               | 版本      |   协议    |    时间     | 版权             |
+|:--:|----------|:-------------------------------------------------|---------|:-------:|:---------:|:---------------|
+| 1  | provided | [lombok](https://projectlombok.org/)             | 1.18.26 |   MIT   | 2009-2021 | Lombok Authors |
+| 2  | test     | [junit](https://junit.org/junit4/)               | 4.13.2  | EPL-1.0 | 2002-2021 | junit          |
+| 3  | test     | [slf4j-simple](https://www.slf4j.org/index.html) | 2.0.6   |   MIT   | 2004-2023 | QOS.ch         |
+| 4  | compile  | [slf4j-api](https://www.slf4j.org/index.html)    | 2.0.6   |   MIT   | 2004-2023 | QOS.ch         |
 
 ## 赞助
 
 一杯奶茶足矣，请备注上你的姓名<br>
+
 #### 1. [PayPal](https://www.paypal.com/paypalme/xingshuang)
+
 [![PayPal Sponsor button](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/xingshuang)
+
 #### 2. 微信
+
 ![微信](https://s3.bmp.ovh/imgs/2025/02/24/3707a0c54727605a.jpg)
 
